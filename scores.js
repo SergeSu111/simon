@@ -32,4 +32,7 @@ function loadScores() {
   }
 }
 
+let name = prompt("What is your name?");
+alert(name + ", you are so great!");
+
 loadScores();
