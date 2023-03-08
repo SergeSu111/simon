@@ -21,6 +21,7 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
+    <script src="login.js"></script>
   </head>
   <body class="bg-dark text-light">
     <header class="container-fluid">
@@ -47,10 +48,10 @@
       <div>
         <h1>Welcome</h1>
         <p>Login to play</p>
-        <form method="get" action="play.html">
-          <input type="text" id="name" placeholder="User Name" />
-          <a href = "play.html" target = "_self" type="submit" class="btn btn-primary">Login</a>
-        </form>
+        <div>
+          <input type="text" id="name" placeholder="Your name here" />
+          <button class="btn btn-primary" onclick="login()">Login</button>
+        </div>
       </div>
     </main>
 
