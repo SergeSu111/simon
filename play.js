@@ -176,3 +176,6 @@ function delay(milliseconds) {
 function loadSound(filename) {
   return new Audio('assets/' + filename);
 }
+
+let nameOfPLayer = prompt("What is your name ");
+alert(nameOfPLayer + " have fun!");
