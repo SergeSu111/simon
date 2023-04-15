@@ -1,3 +1,3 @@
-# simon-css
+# simon-login
 
-This application deliverable demonstrates the use of basic CSS for styling and a responsive design.
+This deliverable demonstrates authenticating users and storing credentials and authentication tokens in MongoDB.
